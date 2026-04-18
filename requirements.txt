@@ -52,3 +52,4 @@ python-dotenv>=1.0.0      # For loading local environment variables during dev
 tiktoken>=0.7.0           # Token counting (useful for estimating costs before sending to Bedrock)
 aiohttp>=3.9.0            # Async HTTP client
 tenacity>=8.3.0           # Retry library for API calls
+langchain-text-splitters>=1.1.2 # not directly required, pinned by Snyk to avoid a vulnerability
